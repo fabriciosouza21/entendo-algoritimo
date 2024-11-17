@@ -27,3 +27,103 @@ R: log 128 = 2^7 - 7 etapas
 2. Suponha que você tenha uma lista de 1024 elementos. Qual é o máximo de etapas que a pesquisa binária vai levar?
 
 R: log 1024 = 2^10 - 10 etapas
+
+# Tempo de execução
+
+![alt text](image-1.png)
+
+tempo linear, quando precisamos percorrer todos os elementos da lista
+
+tempo logarítmico, quando a lista é dividida pela metade a cada passo
+
+## Notaçao Big O
+
+A notaão Big O é uma notação especial que diz o quão rápido é um algoritimo.
+
+
+## Tempo de execução dos algoritmos cresce a taxas diferentes
+
+A notação Big O informa o quão rápido é um algoritmo. A notão Big O permite que você compare o número de operações. ela informa o quão rápido o tempo de execução de um algoritmo cresce à medida que o tamanho da entrada aumenta.
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+## Exemplos
+
+### Grade com 16 quadrados
+
+![alt text](image-4.png)
+
+Big O(n) - tempo linear
+
+### Dobre o papel
+
+![alt text](image-5.png)
+
+Big O(log n) - tempo logarítimico
+
+
+>A notação Big O estabelece o tempo de execução do pior caso
+
+## Alguns exemplos comuns de tempo de execução Big O
+
+- O(log n) - logarítimico, exemplo: pesquisa binária
+- O(n) - linear, exemplo: pesquisa simples
+- O(n * log n) - exemplo: algoritmo de ordenação rápido (quick sort)
+- O(n^2) - exemplo: algoritmo de ordenação por seleção
+- O(n!) - exemplo: um algortimo bastante lento, como o do caixeiro viajante
+
+![alt text](image-6.png)
+
+- a rapidez de um algoritmo é medida em termos de crescimento do tempo de execução à medida que o tamanho da entrada aumenta
+- Em vez disso discutimos sobre o quão rapidamente o tempo de execução de um algoritmo aumenta à medida que o tamanho da entrada aumenta
+- A notação Big O nos permite comparar o número de operações
+- O(log n) é mais rápido do que O(n) e O(log n) fica mais rápido conforme a lista aumenta
+
+## Exercícios
+
+1.3 Você tem um nome e deseja encontrar o número de telefone para esse
+nome em uma agenda telefônica.
+
+R: O(log n) - pesquisa binária
+
+1.4 Você tem um número de telefone e deseja encontrar o dono dele em uma agenda telefônica. (Dica: Deve procurar pela agenda inteira!)
+
+R: O(n) - pesquisa linear
+1.5 Você quer ler o número de cada pessoa da agenda telefônica.
+
+R: O(n) - pesquisa linear
+
+1.6 Você quer ler os números apenas dos nomes que começam com A. (Isso
+é complicado! Esse algoritmo envolve conceitos que são abordados mais
+profundamente no Capítulo 4. Leia a resposta – você cará surpreso!)
+
+Resposta: O(n). Você pode pensar: “Só estou fazendo isso para 1 dentre 26
+caracteres, portanto o tempo de execução deve ser O(n/26).” Uma regra
+simples é a de ignorar números que são somados, subtraídos,
+multiplicados ou divididos. Nenhum desses são tempos de execução Big
+O: O(n + 26), O(n - 26), O(n * 26), O(n / 26). Eles são todos o mesmo
+que O(n)! Por quê? Se você está com dúvidas, vá para “Notação Big O
+revisada”, no Capítulo 4, e leia a parte sobre constantes na notação Big O
+(uma constante é apenas um número; 26 era a constante desta questão).
+
+
+## Caixeiro viajante
+
+O problema do caixeiro viajante é um problema clássico. Dado um número de cidades e as distâncias entre elas, o problema é encontrar o caminho mais curto que visita cada cidade uma única vez e retorna à cidade de origem.
+
+> No entanto, uma vez que lidamos com mais de 100 cidades, é impossível calcular a resposta em função do tempo – o sol entrará em colapso antes.
+
+
+![alt text](image-7.png)
+
+
+## Resumo
+
+- A pesquisa binária é muito mais rápida do que a pesquisa simples.
+- O(log n) é mais rápido do que O(n), e O(log n) fica ainda mais rápido
+conforme os elementos da lista aumentam.
+- A rapidez de um algoritmo não é medida em segundos.
+- O tempo de execução de um algoritmo é medido por meio de seu crescimento.
+- O tempo de execução dos algoritmos é expresso na notação Big O.
