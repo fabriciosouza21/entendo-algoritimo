@@ -4,7 +4,7 @@ armazena de modo predeteminado os espaços em memoria de forma sequencial.
 
 *arrays tem acesso aléatorio. pode acessar qual quer elemento quando quiser*
 
-![alt text](image.png)
+![alt text](array-memoria.png)
 
 ## Desvantagem
 
@@ -22,20 +22,20 @@ Lista encadeada não pode ser indexada, para acessar um elemento é necessario p
 
 *Lista encadeados tem acesso sequencia, precisar pecorre sequencialmente até encontra o elemento*
 
-![alt text](image.png)
+![alt text](lista-encadeada.png)
 
 
 # Arrays
 
 Com array podemos acessa qualquer elemento em tempo constante, isso se deve ao fato de que os elementos são armazenados em espaços de memoria sequenciais, por isso podemos indexar qualquer elemento em tempo constante.
 
-![alt text](image.png)
+![alt text](listaEncadaea-insersao.png)
 
 # Terminologia
 
 tempo de execução para operações comuns de arrays e listas
 
-![alt text](image.png)
+![alt text](operacoes-array-lista.png)
 
 
 # Exercicios
@@ -53,13 +53,12 @@ R: Lista encadeada
 # Inserindo algo no meio da lista
 
 Adicionar elementos no meio em lista encadeadas é muito mais rapido do que em arrays, pois em arrays é necessario mover todos os elementos para a direita. Enquanto no array encadeado é necessario apenas mudar os ponteiros.
-![alt text](image-1.png)
 
 # Deleções
 
 deleções em lista encadeadas e bem mais rapido do que em arrays, pois em arrays é necessario mover todos os elementos para a esquerda. Enquanto no array encadeado é necessario apenas mudar os ponteiros.
 
-![alt text](image.png)
+
 
 
 # Exercicios
@@ -109,7 +108,7 @@ lista. Você vai ao slot 1 do array, a seguir para a lista encadeada do slot 1, 
 adiciona Adit B no nal. Agora, suponha que você queira procurar o
 Zakhir H. Você vai ao slot 26, que aponta para a lista encadeada de todosos nomes começados em Z. Então, procura pela lista até encontrar o Zakhir H.
 
-![alt text](image.png)
+![alt text](excercio-hibrido.png)
 
 Compare esta estrutura híbrida com arrays e listas encadeadas. É mais lento
 ou mais rápido fazer inserções e eliminações nesse caso? Você não precisa
