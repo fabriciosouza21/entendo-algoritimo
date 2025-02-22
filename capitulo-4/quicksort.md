@@ -113,33 +113,33 @@ O(n) * O(log n) = O(n log n)
 R: O(n)
 
 Explicação:
-Para imprimir cada elemento de um array, você precisa percorrer todos os elementos uma vez.
+- Para imprimir cada elemento de um array, você precisa percorrer todos os elementos uma vez.
 
-Se o array tem n elementos, você fará n operações (uma para cada elemento).
+- Se o array tem n elementos, você fará n operações (uma para cada elemento).
 
-Portanto, a complexidade é O(n), onde n é o tamanho do array.
+- Portanto, a complexidade é O(n), onde n é o tamanho do array.
 
 4.6 Duplicar o valor de cada elemento em um array.
 
 R: O(n)
 
 Explicação:
-Para duplicar o valor de cada elemento, você precisa percorrer todos os elementos do array uma vez e realizar uma operação de multiplicação para cada um.
+- Para duplicar o valor de cada elemento, você precisa percorrer todos os elementos do array uma vez e realizar uma operação de multiplicação para cada um.
 
-Se o array tem n elementos, você fará n operações.
+- Se o array tem n elementos, você fará n operações.
 
-Portanto, a complexidade é O(n).
+- Portanto, a complexidade é O(n).
 
 4.7 Duplicar o valor apenas do primeiro elemento do array.
 	como o primeiro elemento é constante, o tempo de execução é constante
 	O(1)
 
 Explicação:
-	Aqui, você só precisa acessar o primeiro elemento do array e multiplicá-lo por 2.
+- Aqui, você só precisa acessar o primeiro elemento do array e multiplicá-lo por 2.
 
-	Não importa o tamanho do array (n), pois você está realizando uma única operação.
+- Não importa o tamanho do array (n), pois você está realizando uma única operação.
 
-	Portanto, a complexidade é O(1), que representa tempo constante.
+- Portanto, a complexidade é O(1), que representa tempo constante.
 
 4.8 Criar uma tabela de multiplicação com todos os elementos do array.
 Assim, caso o seu array seja [2, 3, 7, 8, 10], você primeiro multiplicará
@@ -148,11 +148,11 @@ por 7, e assim por diante.
 R: O(n!)
 
 Explicação:
-Para criar uma tabela de multiplicação, você precisa multiplicar cada elemento do array por todos os outros elementos (incluindo ele mesmo).
+- Para criar uma tabela de multiplicação, você precisa multiplicar cada elemento do array por todos os outros elementos (incluindo ele mesmo).
 
-Se o array tem n elementos, você fará n * n = n² operações.
+- Se o array tem n elementos, você fará n * n = n² operações.
 
-Portanto, a complexidade é O(n²).
+- Portanto, a complexidade é O(n²).
 
 
 # Resumo
