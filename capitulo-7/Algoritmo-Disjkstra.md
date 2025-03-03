@@ -65,14 +65,14 @@ A implementação do algoritmo de distra precisamos de tres tabelas hash:
 
 ![alt text](image-14.png)
 
-1 - Encontra o custo mais baixo que ainda não foi precessado
-2 - Caso todos os vértices tenha sido precessados, esse laço while será finalizado
-3 - precorre todos os vizinho desse vértice
-4 - Caso seja mais barato cheagar a um vizinho a partir desse vertice
-5 - atualizar o custo deles
-6 - esse vértice ser torna o novo pai para o vizinho
-7 - Marca o vértice como processado
-8 - Encontra o próximo vértice para processar e repete o processo
+1. - Encontra o custo mais baixo que ainda não foi precessado
+2. - Caso todos os vértices tenha sido precessados, esse laço while será finalizado
+3. - precorre todos os vizinho desse vértice
+4. - Caso seja mais barato cheagar a um vizinho a partir desse vertice
+5. - atualizar o custo deles
+6. - esse vértice ser torna o novo pai para o vizinho
+7. - Marca o vértice como processado
+8. - Encontra o próximo vértice para processar e repete o processo
 
 
 # Exemplo prático
