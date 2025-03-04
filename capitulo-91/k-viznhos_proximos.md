@@ -58,6 +58,10 @@ fazendo o calculo da distancia temos a tabela abaixo :
 
 ![alt text](image-12.png)
 
+agora bastar tirar a media dos valores proximos que temos uma estimativa de quanto de pao vamos vender 218,75..
+
+
+
 
 # Escolhendo boas caracteristicas
 
