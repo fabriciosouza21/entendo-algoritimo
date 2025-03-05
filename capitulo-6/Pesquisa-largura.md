@@ -64,13 +64,13 @@ Assim , uma ordenação topológica do grafo poderia ser feita e dessa forma,uma
 
 - A pesquisa em Largura lhe diz se há um caminho A para B
 - Se esse caminho existir, a pesquisa em largura lhe dará o caminho mínimo
-- se você tem um porblema do tipo "encontre o meno X", tente modela o seu problema utilizando grafos e use a pesquisa em largura pra resolvê-lo
-- um dígrafo contém seta e as relações seguem a direção das setas
+- se você tem um problema do tipo "encontre o meno X", tente modela o seu problema utilizando grafos e use a pesquisa em largura pra resolvê-lo
+- um dígrafo contém setas e as relações seguem a direção das setas
 - Grafos não direcionados não contêm setas, e a relação acontece nos dois sentidos
 - Filas são FIFO (primeiro a entrar, primeiro a sair)
 - Pilhas são LIFO (último a entrar, primeiro a sair).
-- Você precisa veri car as pessoas na ordem em que elas foram adicionadas à lista de pesquisa. Portanto a lista de pesquisa deve ser uma la; caso contrário, você não obterá o caminho mínimo.
-- Cada vez que você precisar veri car alguém, procure não vericá-lo novamente. Caso contrário, poderá acabar em um loop in nito.
+- Você precisa vericar as pessoas na ordem em que elas foram adicionadas à lista de pesquisa. Portanto a lista de pesquisa deve ser uma fila; caso contrário, você não obterá o caminho mínimo.
+- Cada vez que você precisar vericar alguém, procure não vericá-lo novamente. Caso contrário, poderá acabar em um loop infinito.
 
 
 
